@@ -1,3 +1,37 @@
+## Portfolio Projects Management System
+# Overview
+This is a portfolio projects management system with complete CRUD (Create, Read, Update, Delete) functionality. The application is built using Laravel as the backend framework and MySQL as the database. The frontend uses Bootstrap for responsive and modern UI components.
+This system allows users to showcase their projects with details, images, and links to related resources like GitHub repositories.
+
+
+1.Full CRUD operations for portfolio projects
+2.Bootstrap-based frontend with modern UI components
+3.Responsive card-based project listings
+4.Project detail pages with descriptions and technology stack
+5.Edit, delete, and view functionality for each project
+6."Add Project" capability for new entries
+7.Mobile-friendly design using Bootstrap's grid system
+8.MySQL database integration for data persistence
+
+## Technologies Used
+
+-Backend: Laravel
+-Database: MySQL
+-Frontend: HTML, CSS, JavaScript, Bootstrap
+-Authentication: Laravel's built-in authentication system
+
+
+
+
+
+
+
+
+
+
+
+
+
 <<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
