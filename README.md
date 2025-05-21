@@ -4,21 +4,21 @@ This is a portfolio projects management system with complete CRUD (Create, Read,
 This system allows users to showcase their projects with details, images, and links to related resources like GitHub repositories.
 
 
-[Full CRUD operations for portfolio projects]
-[Bootstrap-based frontend with modern UI components]
-[Responsive card-based project listings]
-[Project detail pages with descriptions and technology stack]
-[Edit, delete, and view functionality for each project]
-["Add Project" capability for new entries]
-[Mobile-friendly design using Bootstrap's grid system]
-[MySQL database integration for data persistence]
+-Full CRUD operations for portfolio projects
+-Bootstrap-based frontend with modern UI components
+-Responsive card-based project listings
+-Project detail pages with descriptions and technology stack
+-Edit, delete, and view functionality for each project
+-"Add Project" capability for new entries
+-Mobile-friendly design using Bootstrap's grid system
+-MySQL database integration for data persistence
 
 ## Technologies Used
 
-[Backend: Laravel]
-[Database: MySQL]
-[Frontend: HTML, CSS, JavaScript, Bootstrap]
-[Authentication: Laravel's built-in authentication system]
+-Backend: Laravel
+-Database: MySQL
+-Frontend: HTML, CSS, JavaScript, Bootstrap
+-Authentication: Laravel's built-in authentication system
 
 
 
