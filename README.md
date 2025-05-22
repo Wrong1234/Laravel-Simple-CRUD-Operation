@@ -61,6 +61,7 @@ The application will be available at http://localhost:8000
 
 # Usage
 - Visit the homepage to view the project listings
+- Click the 'Projects' button to view all projects
 - Click on individual projects to see detailed information
 - Use the "Add Project" button to create new portfolio entries
 - Each project card has Edit, Delete, and View options
@@ -82,7 +83,7 @@ The application will be available at http://localhost:8000
     - config/ - Configuration files
 
 ## Projects Home Page
-![image alt](/public/projects/home.png)
+![image alt](/public/projects/homePage.png)
 
 ## Project Detail Page
 ![image alt](https://github.com/Wrong1234/Laravel-Simple-CRUD-Operation/blob/246ebc88f28e2c522bf62e072553fa71d9a885cf/Laravel%20CRUD%20Project%20-%20Google%20Chrome%205_22_2025%2012_50_12%20AM.png)
