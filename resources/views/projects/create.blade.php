@@ -1,6 +1,11 @@
 @extends('layouts.app')
 @section('main')
 
+ <style>
+    body{
+      background-color:#EAEAEA;
+    }
+  </style>
   @if($message = Session::get('success'))
     <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
       {{ $message }}
@@ -8,7 +13,7 @@
     </div>
   @endif
 
-  <div class="container py-5" style="min-height: 90vh; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);">
+  <div class="container py-5">
     <div class="row justify-content-center align-items-center" style="min-height: 80vh;">
       <div class="col-md-8 col-lg-6">
         <div class="card shadow-lg border-0 rounded-4">

@@ -9,8 +9,11 @@
     .card.h-100:hover {
       transform: translateY(-5px);
     }
+    body{
+      background-color: #EAEAEA;
+    }
   </style>
-  <div class="container py-5">
+  <div class="container py-4">
     <div class="d-flex justify-content-between align-items-center ">
       <h2 class="fw-bold text-primary mb-0">My Projects</h2>
       <a href="/projects/create" class="btn btn-lg btn-primary shadow-sm">
@@ -21,9 +24,9 @@
     <div class="row g-4 mb-3">
       @forelse($projects as $project)
         <div class="col-12 col-md-6 col-lg-4">
-          <div class="card h-100 border-0 shadow-lg rounded-1">
+          <div class=" card h-100 border-0 shadow-md rounded-2">
             @if($project->image)
-              <img src="{{ asset('projects/'.$project->image) }}" class="card-img-top rounded-top-4 " alt="Project Image" style="height: 220px; object-fit: cover;">
+              <img src="{{ asset('projects/'.$project->image) }}" class="card-img-top rounded-top-3 " alt="Project Image" style="height: 220px; object-fit: cover;">
             @else
               <div class="bg-secondary d-flex align-items-center justify-content-center rounded-top-4" style="height: 220px;">
                 <span class="text-white-50 fs-1"><i class="bi bi-image"></i></span>

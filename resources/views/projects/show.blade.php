@@ -1,7 +1,12 @@
 @extends('layouts.app')
 @section('main')
+<style>
+  body{
+    background-color:#EAEAEA;
+  }
+</style>
 
-<div class="container py-5 d-flex justify-content-center align-items-center" style="min-height: 90vh; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);">
+<div class="container py-5 d-flex justify-content-center align-items-center">
   <div class="card shadow-lg border-0 rounded-4" style="max-width: 600px; width: 100%;">
     <div class="position-relative">
       <img src="/projects/{{$project->image}}" class="card-img-top rounded-top-4" alt="Project Image" style="height: 280px; object-fit: cover;">

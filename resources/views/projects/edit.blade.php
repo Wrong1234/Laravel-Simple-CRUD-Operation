@@ -6,8 +6,13 @@
       {{ $message }}
     </div>
   @endif
+  <style>
+    body{
+      background-color:#EAEAEA;
+    }
+  </style>
   
-  <div class="container pt-4" style="background-color: #ECFAE5;">
+  <div class="container pt-4">
     <div class="row justify-content-center">
       <div class="col-md-8 col-lg-6">
         <div class="card shadow-sm">
