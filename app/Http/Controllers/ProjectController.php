@@ -10,8 +10,10 @@ class ProjectController extends Controller
     public function index()
     {
         // Fetch all projects from the database
-        $items = Project::get();
-        return view('projects.index', ['projects' => $items]);
+        $items = Project::latest()->paginate(3);
+
+        return view('projects.index', 
+        ['projects' => $items]);
     }
 
     public function create()
@@ -30,7 +32,7 @@ class ProjectController extends Controller
         $request->validate([
             'name' => 'required',
             'description' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
             'github_url' => 'nullable|url',
             'status' => 'required',
         ]);
@@ -71,7 +73,7 @@ class ProjectController extends Controller
             'description' => 'required|string',
             'github_url' => 'required|url',
             'status' => 'required',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
         ]);
 
         // Find the existing project

@@ -11,14 +11,14 @@
     }
   </style>
   <div class="container py-5">
-    <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="d-flex justify-content-between align-items-center ">
       <h2 class="fw-bold text-primary mb-0">My Projects</h2>
       <a href="/projects/create" class="btn btn-lg btn-primary shadow-sm">
         <i class="bi bi-plus-circle me-2"></i>Add Project
       </a>
     </div>
     <hr class="mb-5">
-    <div class="row g-4">
+    <div class="row g-4 mb-3">
       @forelse($projects as $project)
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-lg rounded-1">
@@ -65,6 +65,7 @@
         </div>
       @endforelse
     </div>
+     {{$projects-> links()}}
   </div>
   <!-- Bootstrap Icons CDN (add to your layout if not already included) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
