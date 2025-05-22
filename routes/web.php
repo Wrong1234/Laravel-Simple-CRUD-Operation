@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
 
 Route::get('/', [ProjectController::class, 'index'])->name('projects.index');
+Route::get('/projects/all_projects', [ProjectController::class, 'all_projects'])->name('projects.all_projects');
 Route::get('/projects/create', [ProjectController::class, 'create'])->name('projects.create');
 Route::post('/projects/store', [ProjectController::class, 'store'])->name('projects.store');
 Route::get('projects/{id}/edit', [ProjectController::class, 'edit'])->name('projects.edit');

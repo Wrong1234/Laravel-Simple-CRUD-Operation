@@ -16,6 +16,16 @@ class ProjectController extends Controller
         ['projects' => $items]);
     }
 
+      public function all_projects()
+    {
+        // Fetch all projects from the database
+        $items = Project::get();
+
+        return view('projects.all_projects', 
+        ['projects' => $items]);
+    }
+
+
     public function create()
     {
         return view('projects.create');
